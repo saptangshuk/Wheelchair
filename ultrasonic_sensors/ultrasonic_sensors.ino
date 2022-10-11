@@ -1,5 +1,5 @@
 #define trigPin 2 
-#define echoPin 12
+#define echoPin 3
 #define trigPin1 4 
 #define echoPin1 5
 #define trigPin2 6 
