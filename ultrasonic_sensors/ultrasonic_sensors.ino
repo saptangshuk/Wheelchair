@@ -40,7 +40,7 @@ void loop()
   digitalWrite(trigPin, LOW);
   d1 = pulseIn(echoPin, HIGH);
 
-  digitalWrite(trigPin1, LOW);
+  /*digitalWrite(trigPin1, LOW);
   delayMicroseconds(2);
   digitalWrite(trigPin1, HIGH);
   delayMicroseconds(10);
@@ -54,7 +54,7 @@ void loop()
   digitalWrite(trigPin2, LOW);
   d3 = pulseIn(echoPin2, HIGH);
 
-  /*digitalWrite(trigPin3, LOW);
+  digitalWrite(trigPin3, LOW);
   delayMicroseconds(2);
   digitalWrite(trigPin3, HIGH);
   delayMicroseconds(10);
@@ -76,4 +76,5 @@ void loop()
   Serial.println(d4);
   Serial.println(d5);
   Serial.println();
+  delay(200);
 }
