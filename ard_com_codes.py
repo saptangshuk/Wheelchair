@@ -13,12 +13,12 @@ GPIO.setup(pin2,GPIO.IN)
 GPIO.setup(pin3,GPIO.IN)
 GPIO.setup(pin4,GPIO.IN)
 
-out1 = GPIO.input(pin1)
-out2 = GPIO.input(pin2)
-out3 = GPIO.input(pin3)
-out4 = GPIO.input(pin4)
+inp1 = GPIO.input(pin1)
+inp2 = GPIO.input(pin2)
+inp3 = GPIO.input(pin3)
+inp4 = GPIO.input(pin4)
 
-str = str(out1)+str(out2)+str(out3)+str(out4)
+str = str(inp1)+str(inp2)+str(inp3)+str(inp4)
 
 if str == '0000':
   #stable state
